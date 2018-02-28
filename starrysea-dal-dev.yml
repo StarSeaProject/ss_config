@@ -1,0 +1,16 @@
+server:
+  port: 8060
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: root1
+    url: jdbc:mysql://127.0.0.1:3306/starrysea?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: root
+  application:
+    name: starrysea-dal
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka
+  instance:
+    prefer-ip-address: true
