@@ -1,6 +1,4 @@
-server:
-  port: 8080
-spring:
+spring: 
   application:
     name: starrysea-gateway
 eureka:

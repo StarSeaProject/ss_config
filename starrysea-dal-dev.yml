@@ -1,9 +1,7 @@
-server:
-  port: 8060
-spring:
+spring: 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    password: root1
+    password: '{cipher}AQBoEq73DzxmAXav1oQ/Rqr8l7nGEotkHABOsN3T/S8+OZJCS0UAyaG2ym1DY6cLuK04yMURyb/k5uhkDi6HTpmV/axCd0t1e6SBZfj/eWAGM07WLjuS2VT6FxzJZe+sXv07yd+DR2pgNXGZdSiSQP88rqpWPVmjZ5c/+NEzMdk+eZ3Wozh1ELla2xTgR0gLGCXSfdOxQCDhDmxXgfULz53bhGsIvP6g+2RnBoBKChZ/+ft0Jo9CTCYMWsBJFDcZ3llrO91DrD7H8BnORYBVPLG1hHhBcWfxU89Qn84CbsajgbdHLumQVsTB/2aEDm8Oe6eXbjm+z4lzvSFGUdLpBd4exTzM0yGh2HKs3eS36wTfT/JbnsyhZPikaCkyNM2dtKk='
     url: jdbc:mysql://127.0.0.1:3306/starrysea?useSSL=false&useUnicode=true&characterEncoding=UTF-8
     username: root
   application:
