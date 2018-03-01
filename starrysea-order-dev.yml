@@ -1,6 +1,15 @@
 spring: 
   application: 
       name: starrysea-order
+  mail:
+    host: smtp.starrysea.top
+    password: Xingzhihai2017
+    port: '25'
+    properties:
+      mail:
+        smtp:
+          auth: 'true'
+    username: mumuzhizhi@starrysea.top
 eureka:
   client:
     service-url:
