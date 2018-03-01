@@ -1,7 +1,7 @@
 spring: 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    password: '{cipher}AQBwRrtYSk1hD6prskkHbfmywLByOmv7VnX3TEMgF+5elnXOb6mFXs86oUytl5M3Hakttzz36JffwML+DwfQpbmlbKv9Qvlb/cvdYQYMOxvT5IVdko8hyqzB30mrgm0BMOaUf5MoLsgC4mnPvxTejwzzhRHUMnr1QgV7rDUO/9zLRrK1EA6PCJ2nv8riv9rynm2Y0qhkwnw/rf5FID++LEs7gDCbyJml7TmiUjYm+34DDavrMV0NJ58GpKCh/sPJfAnX6oGXEAWV62ZRGUXxKuCslRmquIEWuYJwqIYEhgo/hnJz0qaD6L1rtb4W0Z/unQOAz2A7HiXBcaMm3bIEyFCeOPC0vj0KzFuM1+4D6yB3lr598FzKiz8LCpc2AMHpXV8='
+    password: root1
     url: jdbc:mysql://127.0.0.1:3306/starrysea?useSSL=false&useUnicode=true&characterEncoding=UTF-8
     username: root
   application:
