@@ -6,3 +6,6 @@ spring:
     username: developer
 ss: 
   fileroot: D:/develop/nginx-1.12.1/
+feign: 
+  hystrix: 
+    enabled: true
