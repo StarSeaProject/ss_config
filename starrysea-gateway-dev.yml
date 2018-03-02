@@ -16,3 +16,6 @@ zuul:
     question:
       path: /question/**
       service-id: starrysea-question
+    root: 
+      path: /**
+      url: forward:/
