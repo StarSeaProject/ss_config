@@ -19,3 +19,5 @@ zuul:
     root: 
       path: /**
       url: forward:/
+ss: 
+  fileroot: D:/develop/nginx-1.12.1/
