@@ -1,9 +1,9 @@
 spring: 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    password: root1
-    url: jdbc:mysql://127.0.0.1:3306/starrysea?useSSL=false&useUnicode=true&characterEncoding=UTF-8
-    username: root
+    password: developer
+    url: jdbc:mysql://120.79.24.63:3306/ss_test?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: developer
   application:
     name: starrysea-dal
 eureka:
