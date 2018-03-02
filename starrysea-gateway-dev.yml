@@ -7,3 +7,12 @@ zuul:
     activity: 
       path: /activity/**
       service-id: starrysea-activity
+    work:
+      path: /work/**
+      service-id: starrysea-work
+    order:
+      path: /order/**
+      service-id: starrysea-order
+    question:
+      path: /question/**
+      service-id: starrysea-question
